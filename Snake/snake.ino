@@ -23,7 +23,7 @@ int foodx = -1, foody = -1;
  // push button Pins
 const int LEFT = A5;
 const int RIGHT = A4;
-const int DEBOUNCE_DELAY = 30; // in milliseconds
+const int DEBOUNCE_DELAY = 60; // in milliseconds
 
 //LED pins 
 const byte CATHODE_PINS[8] = {A3, A2, A1, A0, 5, 4, 3, 2};
