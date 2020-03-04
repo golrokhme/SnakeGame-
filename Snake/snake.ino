@@ -208,7 +208,7 @@ void loop() {
         while (millis() - t < 500) 
           display(winLedOn, winBrightness);
     }
-    sz = tmp = 0;
+    sz = tmp = 1;
   }
   if (!start) {
     if (read_left_button()) {
@@ -304,4 +304,7 @@ void loop() {
     ate = true;
     foodx = foody = -1;
   }
+
+  tmp = sz;
+  
 }
